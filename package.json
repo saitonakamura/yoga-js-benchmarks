@@ -1,0 +1,23 @@
+{
+  "name": "yoga-js-benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader esbuild-node-loader bench.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/benchmark": "^2.1.1",
+    "benchmark": "^2.1.4",
+    "esbuild-node-loader": "^0.6.3",
+    "prettier": "^2.5.1",
+    "typeflex": "^0.1.0",
+    "typescript": "^4.5.2",
+    "yoga-layout-prebuilt": "^1.10.0"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
